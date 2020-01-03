@@ -39,7 +39,7 @@ end
 
 def find_a(array)
   a_array = []
-  array.each do [string]
+  array.each do |string|
     string_array = string.chars
     if string_array[0] === "a"
       a_array << string
