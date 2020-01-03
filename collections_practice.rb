@@ -70,6 +70,6 @@ def add_s(array)
       s_array << string
     end
     i += 1
-  end 
+  end
   return s_array
 end
