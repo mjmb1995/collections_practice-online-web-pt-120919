@@ -30,7 +30,7 @@ end
 def kesha_maker(array)
   array.each do |string|
     string_array = string.chars
-    string_array[2] = $
+    string_array[2] = "$"
     puts string_array.join
   end
 end
