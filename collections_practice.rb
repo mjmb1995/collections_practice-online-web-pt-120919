@@ -32,5 +32,5 @@ def kesha_maker(array)
     string_array = string.chars
     string_array[2] = $
     puts string_array.join
-
+  end
 end
