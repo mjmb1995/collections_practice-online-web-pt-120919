@@ -57,3 +57,18 @@ def sum_array(array)
   end
   return sum
 end
+
+def add_s(array)
+  s_array = []
+  i = 0
+  array.each do |string|
+    if i != 1
+      string_array = string.chars
+      string_array << "s"
+      s_array << string_array.join
+    else
+      s_array << string
+    end
+    i += 1
+  end 
+end
