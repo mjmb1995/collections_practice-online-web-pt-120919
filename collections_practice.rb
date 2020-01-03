@@ -55,4 +55,5 @@ def sum_array(array)
     sum += arrayp[i]
     i += 1
   end
+  return sum
 end
